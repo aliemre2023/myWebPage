@@ -1,0 +1,130 @@
+body{
+  background-color: beige;
+}
+
+#page{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+}
+
+#myPlace{
+  float: left;
+  width: 30%;
+  height: 640px;
+  position: absolute;
+  background-color: #1E90FF;
+  text-align: center;
+  margin: 0 0 0 0;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  
+}
+
+#name{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 150%;
+}
+
+#socialBox{
+  height: auto;
+}
+
+#row1{
+  margin: 0 0 0 35%;
+  width: 60%;
+  height: 200px;
+  background-color: rgb(222, 184, 135);
+}
+
+#itsme{
+  font-family: Autography, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-align: center;
+  padding: 17px 0 0 0;
+}
+#ithink{
+  font-family: monospace;
+  text-align: center;
+  color: rgb(222, 184, 135);
+  padding: 25px 0 25px 0;
+}
+
+#row2{
+  margin: 20px 0 0 35%;
+  background-color: rgb(222, 184, 135);
+  width: 60%;
+  height: 200px;
+  background-image: url('./200w.gif');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+#omaygatDiv{
+  padding: 17px 0 0 0;
+}
+
+#omaygat{
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  border: groove 10px rosybrown;
+  height: 150px;
+  width: 60%;
+}
+
+
+
+
+#row3{
+  margin: 20px 0 0 35%;
+  background-color: burlywood;
+  width: 60%;
+  height: 200px;
+  overflow-x: auto;
+  overflow-y: hidden;
+  white-space: nowrap;
+  padding: 0 0 0 0;
+}
+
+.galeria{
+  margin: 25px 15px 0 15px;
+  border: solid 1px black;
+  height: 150px;
+}
+
+/*change the number below to scale to the appropriate size*/ 
+.galeria:hover { 
+  transform: scale(1.2); 
+  }
+
+#ada{
+  background-color: brown;
+}
+
+#galleryButton{
+  text-align: center;
+  transform: rotate(-90deg);
+  background-color: khaki;
+  margin-bottom: 70px;
+}
+
+#galleryButtonDiv{
+  float: left;
+  margin-top: 85px;
+}
+
+
+
+#headerFor2{
+  padding: 10px 5px 0 5px;
+  text-align: center;
+  color: #403abe;
+  font-family: Gotu;
+  
+}
+
+.request{
+  color:rgb(222, 184, 135);
+}

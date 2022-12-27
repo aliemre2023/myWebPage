@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>my webpage</title>
+        <meta charset="UTF-8">
+
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>
+
+      
+    </head>
+
+    <body>
+        <div id="page">
+            <!--Information about me-->
+            <div id="myPlace">
+                <div id="buben">
+                    <h1 id="name">aliemre2023</h1>
+                    <img src="visuals/myPhoto.jpg" title="buben" width="60%px">
+                </div>
+
+                <div id="socialBox">
+                    <a href="https://www.instagram.com/aliemre2023">
+                        <img src="visuals/logos/instagram-logo.png" width="30px">
+                    </a>
+                    <br>
+                    <a href="https://github.com/aliemre2023">
+                        <img src="visuals/logos/github-logo.png" height="30px">
+                    </a>
+                    <br>
+                    <a href="https://www.linkedin.com/in/ali-emre-kaya-a101b9224">
+                        <img src="visuals/logos/linkedin-logo.png" width="30px">
+                    </a> 
+                </div>
+
+                <div>
+                    <p>
+                        Hi! I'm Ali Emre Kaya. I'm studying Computer Engineering at ITU. 
+                        I interested with AI, evolution, religions...
+                    </p>
+                </div>
+            </div>
+
+            <div id="row1">
+                <h1 id="itsme" onmouseover="document.getElementById('ithink').style.background='#A0A0A0'"
+                onmouseout="document.getElementById('ithink').style=document.getElementById('ithink').style">IT'S ME</h1>
+                <p id="ithink">I THINK</p>
+            </div>
+            <div id="row2">
+                <div id="omaygatDiv">
+                    <audio id="audioID">
+                        <source src="sounds/OH_MY_GOD.mp3">
+                    </audio>
+                    <img id="omaygat" src="visuals/ummm.gif" 
+                    onmouseover="document.getElementById('audioID').play(); changeImage()"
+                    onmouseout="resetImage()">
+                </div>
+            </div>
+
+            <!--Pictures which I like-->
+            <div id="row3">
+                <div id="galleryButtonDiv">
+                    <button id="galleryButton" type="button" onclick="window.location.href='visuals/galeria.html','_blank'">Gallery</button>
+                </div>
+                <img class="galeria" id="ada" src="visuals/galeria/Ada_Lovelace.png" alt="Ada_Lovelace">
+                <img class="galeria" src="visuals/galeria/capybara.jpg" alt="capybara">
+                <img class="galeria" src="visuals/galeria/Gustave_Doré_Destruction_of_Leviathan.png" alt="Gustave_Doré_Destruction_of_Leviathan">
+                <img class="galeria" src="visuals/galeria/hedy-lamarr-portrait-tout.webp" alt="hedy-lamarr-portrait-tout">
+                <img class="galeria" src="visuals/galeria/holytree.jpg" alt="holytree">
+                <img class="galeria" src="visuals/galeria/John_Martin_-_Belshazzar's_Feast.jpg" alt="John_Martin_-_Belshazzar">
+                <img class="galeria" src="visuals/galeria/John_Martin_-_Moonlight_-_Chepstow_Castle.jpg" alt="John_Martin_-_Moonlight_-_Chepstow_Castle">
+                <img class="galeria" src="visuals/galeria/John_Martin_-_The_Great_Day_of_His_Wrath.jpg" alt="John_Martin_-_The_Great_Day_of_His_Wrath">
+                <img class="galeria" src="visuals/galeria/nic.png" alt="nice">
+                <img class="galeria" src="visuals/galeria/Septem-artes-liberales_Herrad-von-Landsberg_Hortus-deliciarum_1180.jpg" alt="Septem Artes Liberates">
+                <img class="galeria" src="visuals/galeria/favicon1_copy.png" alt="favicon">
+                <img class="galeria" src="visuals/galeria/Ataturk_ve_Buyuk_Utku_Aniti.jpg" alt="Ataturk_ve_Buyuk_Utku_Aniti">
+            </div>
+               
+        </div>
+            
+        
+    </body>
+</html>
