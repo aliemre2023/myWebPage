@@ -56,7 +56,7 @@ body{
   background-color: rgb(222, 184, 135);
   width: 60%;
   height: 200px;
-  background-image: url('./200w.gif');
+  background-image: url('visuals/200w.gif');
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
