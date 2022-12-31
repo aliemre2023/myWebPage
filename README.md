@@ -1,5 +1,6 @@
 
 <h1>My Personal Web Page</h1>
 
+<p>Screenshot of my webpage</p>
 
-<img width="1440" alt="webpage_ss" src="https://user-images.githubusercontent.com/93014021/209775873-da441aea-2b21-419d-a7f7-75b536732c23.png">
+<img width="1440" alt="Screen Shot 2022-12-31 at 14 32 58" src="https://user-images.githubusercontent.com/93014021/210135167-89b53801-de45-4a46-bd59-55416b1ae114.png">
