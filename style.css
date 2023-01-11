@@ -36,7 +36,7 @@ body{
   margin: 0 0 0 35%;
   width: 60%;
   height: 200px;
-  background-color: rgb(222, 184, 135);
+  background-color: burlywood;
 }
 
 #itsme{
@@ -135,5 +135,13 @@ body{
 }
 
 .request{
-  color:rgb(222, 184, 135);
+  color: rgb(222, 184, 135);
+}
+
+#colorizationButton{
+  background-color: rgb(222, 136, 154);
+  color: aliceblue;
+  border:2px rgb(255, 114, 199) solid; 
+  float: left;
+  margin: 10px 0 0 20px;
 }
