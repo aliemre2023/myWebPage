@@ -3,4 +3,5 @@
 
 <p>Screenshot of my webpage</p>
 
-<img width="1440" alt="Screen Shot 2022-12-31 at 14 32 58" src="https://user-images.githubusercontent.com/93014021/210135167-89b53801-de45-4a46-bd59-55416b1ae114.png">
+
+<img width="1439" alt="ebpage_Ss" src="https://user-images.githubusercontent.com/93014021/212050516-ca33bed0-fe9c-4d39-aa66-4cb41c46b806.png">
